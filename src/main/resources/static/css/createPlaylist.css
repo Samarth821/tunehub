@@ -1,0 +1,105 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body
+    {
+        justify-content: center;
+        min-height: 700px;
+        align-items: center;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }  
+    .container
+    {
+        background-color: rgb(188, 250, 227);
+        border: solid 3px rgb(53, 84, 6);
+        box-shadow: 0 0 60px #133353;
+        border-radius: 8px;
+        margin:25px 615px ;
+        width: 300px;
+        padding: 30px;
+    }
+    img
+    {
+        border: solid 3px rgb(68, 110, 4);
+        box-shadow: 0 0 20px #3e7b04;
+        border-radius: 10px;
+        margin: 80px;
+    }
+    #playlist-name
+    {
+        padding: 8px;
+        width: 90%;
+        margin: 10px 0 35px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        background-color:  #fdfefb;
+        color: #3c7606;
+        border: solid 1px rgb(68, 110, 4);
+        box-shadow: 0 0 4px #3e7b04;
+        text-shadow:0 0 25px  #3e7b04;
+        border-radius: 3px;
+        
+    }
+    ::placeholder
+    {
+        font-weight: normal;
+        font-size: 14px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        
+    }
+   #playlists
+   {
+        font-size: 18px;
+        color: #416D19;
+        text-shadow: 0 0 25px #3e7b04;
+        font-weight: bold;
+
+   }
+   #main
+   {
+    padding: 3px 4px;
+    font-size: 19px;
+    font-weight: bolder;
+    background-color:#e8f6d3;
+    color: #416D19;
+    box-shadow: 0 0 25px #3e7b04;
+    border-radius: 3px;
+    text-shadow: 0 0 60px #3e7b04;
+   }
+   button
+   {
+    padding: 5px;
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 14px;
+    border: solid 2px rgb(53, 84, 6);
+    color: #fdfefb;
+    background-color: rgb(86, 189, 129);
+    box-shadow: 0 0 10px #2b5603;
+    text-shadow: 0 0 26px #78a44f;
+    text-decoration: none;
+    cursor: pointer;   
+    border-radius: 5px;
+   }
+   button:hover
+   {
+    color:#416D19;
+    background-color:#e8f6d3;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-shadow: 0 0 25px #3e7b04;
+	box-shadow: 0 0 18px #2b5603;
+   }
+  .playlist-container
+   {
+    text-align: left;
+    padding:2px 52px;
+   }

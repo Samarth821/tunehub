@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Songs</title>
+<link rel="stylesheet" th:href="@{/css/displaySongs.css}">
+</head>
+<body style="background-image: url('img/bg.jpg'); background-size: 100%;">
+<img th:src="@{/img/logo.jpg}" height="70px" width="160px">
+        <div>
+         <h2>Song List</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Genre</th>
+                    <th>Artist</th>
+                    <th>Play</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="song:${songs}">
+                    <td th:text="${song.name}"></td>
+                    <td th:text="${song.artist}"></td>
+                    <td th:text="${song.genre}"></td>
+                    <td>
+                    <audio controls>
+                            <source th:src="${song.link}" type="audio/mpeg" />
+                    </audio>
+                    </td>
+                </tr>
+            </tbody>
+    
+        </table>
+    </div>
+	
+
+</body>
+</html>
+

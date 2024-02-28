@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+<link rel="stylesheet" th:href="@{/css/registration.css}">
+</head>
+<body style="background-image: url('img/bg.jpg'); background-size: 100%">
+	<div class="container">
+		<img th:src="@{/img/logo.jpg}" height="60px" width="200px" />
+		<form action="registration" method="post">
+			<label>User name : </label> 
+			<input id="user" type="text" name="username" placeholder="Username" />
+			 <br>
+			 <label>Email : </label>
+			 <input id="email" type="email" name="email" placeholder="Email" />
+			 <br>
+			 <label>Password : </label>
+			 <input id="password" type="password" name="password" placeholder="Password" />
+			 <br>
+			 <label>Gender : </label>
+			  M<input id="M" type="radio" name="gender" value="male" style="border: none;" />&emsp;&emsp;&ensp;
+			  F<input id="F" type="radio" name="gender" value="female" />&emsp;&emsp;&ensp;
+			  O<input id="O" type="radio" name="gender" value="others" /> 
+			 <br>
+			 <label>Role : </label>
+			  Admin<input id="admin" type="radio" name="role" value="admin" />&emsp;&emsp;
+			  Customer<input id="customer" type="radio" name="role" value="customer" />
+			 <br>
+			 <label>Address : </label>
+			 <textarea name="address" ></textarea>
+			 <br>
+			 <button type="submit">REGISTER</button>
+		</form>
+	</div>
+
+</body>
+
+</html>
+
+

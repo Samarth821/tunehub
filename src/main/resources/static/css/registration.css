@@ -1,0 +1,113 @@
+*
+ {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+ }
+body
+    {
+        min-height: 700px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #416D19;
+        font-size: 16px;
+        font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+    }
+.container
+    {
+        background-color: rgb(188, 250, 227);
+        border: solid 3px rgb(53, 84, 6);
+        box-shadow: 0 0 60px #133353;
+        border-radius: 8px;
+        width: 370px;
+        height: 630px;
+        padding: 10px;
+        text-align: center;
+    }
+img
+    {
+        border: solid 3px rgb(68, 110, 4);
+        box-shadow: 0 0 20px #3e7b04;
+        border-radius: 10px;
+        margin: 8px;
+    }
+form label
+    {
+        color: #416D19;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        text-align: left;
+        margin: 8px 0;
+        margin-top: 15px;
+        text-shadow: 0 0 40px #416D19;
+    }
+form input
+    {
+        margin: 2px;
+        padding: 8px;
+        width: 100%;
+    }
+#user, #email, #password
+    {
+        background-color:  #fdfefb;
+        color: #416D19;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        border: solid 1px rgb(68, 110, 4);
+        box-shadow: 0 0 4px #3e7b04;
+        border-radius: 3px;
+        text-shadow:0 0 25px #559e11;
+    }
+#M,#F,#O, #admin, #customer
+    {
+        width: 30px;
+    }
+ form textarea
+    {
+        width: 100%;
+        padding: 20px;
+        background-color:  #fdfefb;
+        color: #416D19;
+        font-weight: 600;
+        font-family: 'Courier';
+        border: solid 1px rgb(68, 110, 4);
+        box-shadow: 0 0 4px #3e7b04;
+        border-radius: 3px;
+    }
+ button
+    {
+        color: #fdfefb;
+        background-color: rgb(86, 189, 129);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        font-weight: 600;
+        border: solid 2px rgb(68, 110, 4);
+        box-shadow: 0 0 9px #3e7b04;
+        border-radius: 5px;
+        width: 98%;
+        margin-top: 15px;
+        padding: 8px;
+        text-shadow:0 0 30px #2a4515;
+    }
+button:hover
+{
+    cursor: pointer;
+    color:#416D19;
+    background-color: #8ffd9c;
+    text-decoration: underline;
+    font-weight: bolder;
+    box-shadow: 0 0 15px #3e7b04;
+    font-size: 16px;
+}
+::placeholder
+{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+        font-weight: 500;
+        text-shadow: 0 0 25px darkcyan;
+}
+

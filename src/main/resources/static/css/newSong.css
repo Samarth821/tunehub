@@ -1,0 +1,99 @@
+   *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    align-items: center;
+    justify-content: center;
+    min-height: 700px;
+    text-align: center;
+
+}
+.song-container
+{
+    background-color: rgb(188, 250, 227);
+    border: solid 3px rgb(53, 84, 6);
+    box-shadow: 0 0 60px #133353;
+    border-radius: 8px;
+    padding: 10px;
+    height: 460px;
+    width: 300px;
+    text-align: center;
+    max-width: 300px;
+    margin:50px 615px;
+}
+img
+{
+    margin: 20px;
+    border: solid 3px rgb(68, 110, 4);
+    box-shadow: 0 0 20px #3e7b04;
+    border-radius: 10px;
+}
+form
+{
+    margin: 10px 0;
+}
+form label
+{
+    color: #416D19;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 600;
+    display: block;
+    text-align: left;
+    margin: 5px 0px;
+    margin-top: 15px;
+    text-shadow: 0 0 30px #416D19;
+}
+form input
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color:  #fdfefb;
+    color: #416D19;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px rgb(68, 110, 4);
+    box-shadow: 0 0 4px #3e7b04;
+    border-radius: 3px;
+    text-shadow:0 0 25px #559e11;
+
+}
+
+button
+{
+    margin: 20px 0;
+    width: 98%;
+    padding: 10px;
+    color: #fdfefb;
+    background-color: rgb(86, 189, 129);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: 600;
+    border: solid 2px rgb(68, 110, 4);
+    box-shadow: 0 0 9px #3e7b04;
+    border-radius: 5px;
+    text-shadow:0 0 30px #2a4515;
+}
+button:hover
+{
+    cursor: pointer;
+    color:#416D19;
+    background-color: #8ffd9c;
+    text-decoration: underline;
+    font-weight: bolder;
+    box-shadow: 0 0 15px #3e7b04;
+    font-size: 16px;
+}
+::placeholder
+{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px;
+        font-weight: 500;
+        text-shadow: 0 0 25px darkcyan;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add-Song</title>
+<link rel="stylesheet" th:href="@{/css/newSong.css}">
+</head>
+<body style="background-image: url('img/bg.jpg'); background-size: 100%">
+
+<img th:src="@{/img/logo.jpg}" height="70px" width="160px"><br>
+        <div class="song-container">
+            <form action="addSong" method="post">
+            <label>Song name : </label>
+            <input type="text" name="name" placeholder="Song name"/>
+            <br>
+            <label>Song artist : </label>
+            <input type="text" name="artist" placeholder="Song artist"/>
+            <br>
+            <label>Song genre : </label>
+            <input type="text" name="genre" placeholder="Song genre"/>
+            <br>
+            <label>Song link : </label>
+            <input type="text" name="link" placeholder="Song link"/>
+            <br>
+            <button type="submit">ADD SONG</button>
+            </form>
+        </div>
+
+</body>
+</html>
+
+
